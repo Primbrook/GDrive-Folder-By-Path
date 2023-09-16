@@ -1,7 +1,7 @@
 # GDrive-Folder-By-Path
 A Google App Script I made to copy and paste into projects where I want to find folders in my drive by a path rather than by id.
 
-Usage is folderFinder("path","basePath",<mkdir>)
+Usage is folderFinder("path","basePath","mkdir")
 
 The path parameter is required and folders should be seperated by '/'
 ex folderFinder("hello/world/foo/bar")
