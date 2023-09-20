@@ -1,4 +1,4 @@
-function folderFinder(path, basePath, mkdir) {
+function folderFinder(path, altRoot, mkdir) {
 
     //PATH CHECKER START
      if (!path){
@@ -15,18 +15,18 @@ function folderFinder(path, basePath, mkdir) {
     //BASE PATH CHECKER START
     var errmsg = "Alternet root folder ID is invalid.";
     var bPath = DriveApp.getRootFolder;
-    if (!basePath){
+    if (!altRoot){
      Logger.log("No base path provided! Defaulting to users drive");
      var bPath = DriveApp.getRootFolder().getId();
      Logger.log("Default Path = "+bPath);
-    } else if (basePath != null){
+    } else if (altRoot != null){
      try {
-       DriveApp.getFolderById(basePath);
+       DriveApp.getFolderById(altRoot);
      } catch {
        Logger.log("Invalid root folder ID provided. Aborting."); return errmsg
      }
      Logger.log("Alternate root ID is valid");
-     bPath = basePath;
+     bPath = altRoot;
      Logger.log("Alternate Path = "+bPath);
     }
     //BASE PATH CHECKER END
