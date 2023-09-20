@@ -4,7 +4,7 @@
 
 ## Features & Usage
 The function has three parameters you can pass to it with only one being required for successful execution.  
-| Paramter | Description | Required? | Usage |
+| Parameter | Description | Required? | Usage |
 | ----------- | ----------- | ----------- | ----------- |
 | path | Specify the path to use | Yes | STRING - Seperate folders in path using "/" - folderFinder("hello/world/foo/bar") |
 | altRoot | Specify an alternate starting point | No | STRING - The ID of folder or shared drive - folderFinder("hello/world", "folder ID") |
