@@ -3,10 +3,10 @@
 
  **Upon successful execution, the function will return the ID of the last folder in the specified path.**  
 
- <h3 id="Parameters">Parameters</h3>
+ <h3 id="Parameters">Parameters</h3> <h3 id="Examples">Examples</h3>
 
 
-## Features & Usage {#Parameters}
+## Parameters
 The function has three parameters you can pass to it with only one being required for successful execution.  
 | Parameter | Description | Required? | Usage |
 | ----------- | ----------- | ----------- | ----------- |
@@ -16,7 +16,7 @@ The function has three parameters you can pass to it with only one being require
 
 ---
 
-## Examples {#examples}
+## Examples
 If you set mkDir to true, the function will create the folders in the path if they don't exist.  
 Example output from Google App Script:  
 <img src="https://maedae.s3.us-east-005.backblazeb2.com/gdriveex1.png" style="width:30rem">  
