@@ -29,7 +29,8 @@ If you don't set this to true, the function defaults to false.
 
 ### altRoot
 You can pass an alternate root to the function so that you can search for folders from a different starting point.
-[How To Find Folder IDs](https://robindirksen.com/blog/where-do-i-get-google-drive-folder-id)
+[How To Find Folder IDs](https://robindirksen.com/blog/where-do-i-get-google-drive-folder-id)  
+Keep in mind that if you don't specify an alternate root, the function defaults to the script owner's drive root.
 
 
 
