@@ -15,3 +15,8 @@ If you set mkDir to true, the function will create the folders in the path if th
 Example output from Google App Script:  
 <img src="https://maedae.s3.us-east-005.backblazeb2.com/gdriveex1.png" style="width:30rem">  
 In this case, mkDir was set to **TRUE** and the folders/directory didn't exist in my drive, so the function created them for me.
+
+<iframe
+  src="https://robindirksen.com/blog/where-do-i-get-google-drive-folder-id"
+  style="width:25rem;"
+></iframe>
