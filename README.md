@@ -3,7 +3,7 @@
 
  **Upon successful execution, the function will return the ID of the last folder in the specified path.**  
 
- <h3 id="Parameters">Parameters</h3> <h3 id="Examples">Examples</h3>
+ <h3 id="Parameters-1">Parameters</h3> <h3 id="Examples-1">Examples</h3>
 
 
 ## Parameters
