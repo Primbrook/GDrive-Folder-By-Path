@@ -23,7 +23,7 @@ The function has three parameters you can pass to it with only one being require
 ### mkDir
 If you set mkDir to true, the function will create the folders in the path if they don't exist.  
 Example output from Google App Script:  
-<img src="https://maedae.s3.us-east-005.backblazeb2.com/gdriveex1.png" style="width:30rem">  
+<img src="https://maedae.s3.us-east-005.backblazeb2.com/Screenshot+2023-09-21+193835.png" style="width:30rem">  
 In this case, mkDir was set to **TRUE** and the folders/directory didn't exist in my drive, so the function created them for me.  
 If you don't set this to true, the function defaults to false.
 
