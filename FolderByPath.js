@@ -4,9 +4,9 @@ function folderFinder(path, altRoot, mkdir) {
      if (!path){
        Logger.log("No path supplied! Aborting."); return
      }else{  
-     var path = path.split('/');
-     Logger.log("Path to use : "+path);
-     Logger.log("Folders in path : "+path.length);
+        var path = path.split('/');
+        Logger.log("Path to use : "+path);
+        Logger.log("Folders in path : "+path.length);
      }
     //PATCH CHECKER END
    
@@ -19,7 +19,7 @@ function folderFinder(path, altRoot, mkdir) {
      Logger.log("No base path provided! Defaulting to users drive");
      var bPath = DriveApp.getRootFolder().getId();
      Logger.log("Default Path = "+bPath);
-    } else if (altRoot != null){
+    }else if (altRoot != null){
      try {
        DriveApp.getFolderById(altRoot);
      } catch {
