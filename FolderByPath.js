@@ -18,11 +18,11 @@ function folderFinder(path, altRoot = "", mkdir = false) {
 
    //BASE PATH CHECKER START
    var bPath = DriveApp.getRootFolder;
-   if (altRoot.length >= 1) {
+   if (altRoot.length == 0) {
       Logger.log("No base path provided! Defaulting to users drive");
       var bPath = DriveApp.getRootFolder().getId();
       Logger.log("Default Path = " + bPath);
-   } else if (altRoot.length == 0) {
+   } else if (altRoot.length >= 1) {
       try {
          DriveApp.getFolderById(altRoot);
       } catch {
