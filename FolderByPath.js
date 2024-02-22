@@ -50,7 +50,7 @@ function folderFinder(path, altRoot = "", mkdir = false) {
          var nPath = DriveApp.getFolderById(bPath).createFolder(path[x]).getId();
          bPath = nPath;
       } else {
-         Logger.log("Could not find folder \"" + path[x] + "\" and mkdir is either set to false or is unset");
+         Logger.log("Could not find folder \"" + path[x] + "\" and mkdir is either set to false");
          return "Provided path did not work";
       }
    }
